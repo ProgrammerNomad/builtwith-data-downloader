@@ -75,10 +75,7 @@ class BuiltWithClient:
             raise ValueError("Invalid data format")
             
         os.makedirs('data/csv', exist_ok=True)
-        
-        # Add timestamp to filename to keep all versions
-        timestamp = time.strftime('%Y%m%d')
-        filename = f"data/csv/{tech_name}_{timestamp}.csv"
+        filename = f"data/csv/{tech_name}.csv"  # Removed timestamp from filename
         
         mode = 'a'  # Always append to preserve all data
         file_exists = os.path.exists(filename)
@@ -88,7 +85,6 @@ class BuiltWithClient:
             
             if not file_exists:
                 writer.writerow([
-                    'Timestamp',          # When this batch was saved
                     'Domain',             # D
                     'Social',            # META.Social
                     'CompanyName',       # META.CompanyName
@@ -105,11 +101,9 @@ class BuiltWithClient:
                     'FirstIndexed',      # FI
                     'LastIndexed',       # LI
                     'Score',             # S
-                    'Rank',             # R
-                    'BatchOffset'        # Offset used for this batch
+                    'Rank'              # R
                 ])
 
-            current_time = time.strftime('%Y-%m-%d %H:%M:%S')
             results = data.get('Results', [])
             
             for result in results:
@@ -121,7 +115,6 @@ class BuiltWithClient:
                     meta = {}
                     
                 row = [
-                    current_time,  # Add timestamp to each row
                     result.get('D', ''),
                     '|'.join(filter(None, meta.get('Social', []) or [])),
                     meta.get('CompanyName', ''),
@@ -138,8 +131,7 @@ class BuiltWithClient:
                     result.get('FI', ''),
                     result.get('LI', ''),
                     result.get('S', ''),
-                    result.get('R', ''),
-                    data.get('NextOffset', '')  # Add offset to track batches
+                    result.get('R', '')
                 ]
                 writer.writerow(row)
 
