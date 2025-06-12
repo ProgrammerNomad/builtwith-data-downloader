@@ -239,6 +239,14 @@
     {
       "name": "Squarespace",
       "RequestName": "Squarespace"
+    },
+    {
+      "name": "GoDaddy",
+      "RequestName": "GoDaddy"
+    },
+    {
+      "name": "GoDaddy Website Builder",
+      "RequestName": "GoDaddy-Website-Builder"
     }
   ]
 }
