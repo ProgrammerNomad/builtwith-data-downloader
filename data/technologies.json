@@ -1,0 +1,244 @@
+{
+  "technologies": [
+    {
+      "name": "Shopify",
+      "RequestName": "Shopify"
+    },
+    {
+      "name": "Magento",
+      "RequestName": "Magento"
+    },
+    {
+      "name": "WordPress",
+      "RequestName": "WordPress"
+    },
+    {
+      "name": "WooCommerce",
+      "RequestName": "WooCommerce"
+    },
+    {
+      "name": "Magento Enterprise",
+      "RequestName": "Magento-Enterprise"
+    },
+    {
+      "name": "Drupal",
+      "RequestName": "Drupal"
+    },
+    {
+      "name": "PrestaShop",
+      "RequestName": "PrestaShop"
+    },
+    {
+      "name": "BigCommerce",
+      "RequestName": "BigCommerce"
+    },
+    {
+      "name": "Demandware",
+      "RequestName": "Demandware"
+    },
+    {
+      "name": "Sitecore CMS",
+      "RequestName": "Sitecore-CMS"
+    },
+    {
+      "name": "Hubspot",
+      "RequestName": "Hubspot"
+    },
+    {
+      "name": "OpenCart",
+      "RequestName": "OpenCart"
+    },
+    {
+      "name": "Marketo",
+      "RequestName": "Marketo"
+    },
+    {
+      "name": "Optimizely",
+      "RequestName": "Optimizely"
+    },
+    {
+      "name": "PHP",
+      "RequestName": "PHP"
+    },
+    {
+      "name": "Adobe CQ",
+      "RequestName": "Adobe-CQ"
+    },
+    {
+      "name": "Joomla!",
+      "RequestName": "Joomla!"
+    },
+    {
+      "name": "Google Analytics",
+      "RequestName": "Google-Analytics"
+    },
+    {
+      "name": "Volusion",
+      "RequestName": "Volusion"
+    },
+    {
+      "name": "MailChimp",
+      "RequestName": "MailChimp"
+    },
+    {
+      "name": "Ruby on Rails",
+      "RequestName": "Ruby-on-Rails"
+    },
+    {
+      "name": "Salesforce",
+      "RequestName": "Salesforce"
+    },
+    {
+      "name": "Cart Functionality",
+      "RequestName": "Cart-Functionality"
+    },
+    {
+      "name": "Angular JS",
+      "RequestName": "Angular-JS"
+    },
+    {
+      "name": "Amazon",
+      "RequestName": "Amazon"  
+    },
+    {
+      "name": "Google Adsense",
+      "RequestName": "Google-Adsense"
+    },
+    {
+      "name": "Omniture SiteCatalyst",
+      "RequestName": "Omniture-SiteCatalyst"
+    },
+    {
+      "name": "Eloqua",
+      "RequestName": "Eloqua"
+    },
+    {
+      "name": "Laravel",
+      "RequestName": "Laravel"
+    },
+    {
+      "name": "ASP.NET",
+      "RequestName": "ASP.NET"
+    },
+    {
+      "name": "Magento 2",
+      "RequestName": "Magento-2"
+    },
+    {
+      "name": "osCommerce",
+      "RequestName": "osCommerce"
+    },
+    {
+      "name": "Zen Cart",
+      "RequestName": "Zen-Cart"
+    },
+    {
+      "name": "Stripe",
+      "RequestName": "Stripe"
+    },
+    {
+      "name": "Adobe Experience Manager",
+      "RequestName": "Adobe-Experience-Manager"
+    },
+    {
+      "name": "Oracle Commerce",
+      "RequestName": "Oracle-Commerce"
+    },
+    {
+      "name": "RevContent",
+      "RequestName": "RevContent"
+    },
+    {
+      "name": "Zendesk",
+      "RequestName": "Zendesk"
+    },
+    {
+      "name": "Infusionsoft",
+      "RequestName": "Infusionsoft"
+    },
+    {
+      "name": "Google Apps for Business",
+      "RequestName": "Google-Apps-for-Business"
+    },
+    {
+      "name": "Magento 1.7",
+      "RequestName": "Magento-1.7"
+    },
+    {
+      "name": "Magento 1.9",
+      "RequestName": "Magento-1.9"
+    },
+    {
+      "name": "Taboola",
+      "RequestName": "Taboola"
+    },
+    {
+      "name": "Umbraco",
+      "RequestName": "Umbraco"
+    },
+    {
+      "name": "Pardot",
+      "RequestName": "Pardot"
+    },
+    {
+      "name": "Liferay",
+      "RequestName": "Liferay"
+    },
+    {
+      "name": "Wix",
+      "RequestName": "Wix"
+    },
+    {
+      "name": "Rackspace",
+      "RequestName": "Rackspace"
+    },
+    {
+      "name": "AdRoll",
+      "RequestName": "AdRoll"
+    },
+    {
+      "name": "New Relic",
+      "RequestName": "New-Relic"
+    },
+    {
+      "name": "Apache",
+      "RequestName": "Apache"
+    },
+    {
+      "name": "Shopify Plus",
+      "RequestName": "Shopify-Plus"
+    },
+    {
+      "name": "nopCommerce",
+      "RequestName": "nopCommerce"
+    },
+    {
+      "name": "ASP.NET MVC",
+      "RequestName": "ASP.NET-MVC"
+    },
+    {
+      "name": "ClickFunnels",
+      "RequestName": "ClickFunnels"
+    },
+    {
+      "name": "CodeIgniter",
+      "RequestName": "CodeIgniter"
+    },
+    {
+      "name": "Criteo",
+      "RequestName": "Criteo"
+    },
+    {
+      "name": "Zoho Mail",
+      "RequestName": "Zoho-Mail"
+    },
+    {
+      "name": "Ektron",
+      "RequestName": "Ektron"
+    },
+    {
+      "name": "Squarespace",
+      "RequestName": "Squarespace"
+    }
+  ]
+}
