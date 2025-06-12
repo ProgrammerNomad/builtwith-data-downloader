@@ -73,9 +73,15 @@ class BuiltWithClient:
         """Save API results to CSV file"""
         if not data or 'Results' not in data:
             raise ValueError("Invalid data format")
+
+        # Check if NextOffset exists and is END
+        next_offset = data.get('NextOffset')
+        if not next_offset or next_offset == 'END':
+            print("No more results available (NextOffset is END)")
+            return 'END'
             
         os.makedirs('data/csv', exist_ok=True)
-        filename = f"data/csv/{tech_name}.csv"  # Removed timestamp from filename
+        filename = f"data/csv/{tech_name}.csv"
         
         mode = 'a'  # Always append to preserve all data
         file_exists = os.path.exists(filename)
@@ -136,7 +142,8 @@ class BuiltWithClient:
                 writer.writerow(row)
 
         print(f"Saved {len(results)} results to {filename}")
-        return data.get('NextOffset', 'END')
+        print(f"Next batch offset: {next_offset}")
+        return next_offset
 
     def _save_offset(self, tech_name, offset):
         """Save the offset for a technology to track progress"""

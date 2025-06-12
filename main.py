@@ -48,17 +48,15 @@ def main():
                         create_new=first_batch
                     )
                     
-                    print(f"Batch processed. Next offset: {next_offset}")
-                    first_batch = False
-                    success = True
-                    
-                    # Check if we're done
+                    # Check if we've reached the end (NextOffset is END)
                     if next_offset == 'END':
                         print(f"\nCompleted downloading data for {tech['name']}!")
                         return
                     
                     # Use the next_offset for subsequent requests
                     offset = next_offset
+                    first_batch = False
+                    success = True
                     
                     # Add delay between requests
                     time.sleep(2)
